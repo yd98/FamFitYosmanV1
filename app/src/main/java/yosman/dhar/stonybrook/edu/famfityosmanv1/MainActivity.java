@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView Info;
     private Button Login;
     private int counter = 5;
+    private TextView userRegistration;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Password= (EditText)findViewById(R.id.etpassword);
         Info = (TextView)findViewById(R.id.tvinfo);
         Login= (Button)findViewById(R.id.btlogin);
+        userRegistration= (TextView)findViewById(R.id.tvregister) ;
 
         //make buttons clickable
         Login.setOnClickListener(new View.OnClickListener() {
@@ -37,7 +39,16 @@ public class MainActivity extends AppCompatActivity {
                 validate(Name.getText().toString(),Password.getText().toString());
             }
         });
-    }
+
+       userRegistration.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               startActivity(new Intent(MainActivity.this,Main2Activity.class));
+           }
+       });
+
+}
+
     //function to ensure the login/logout is correct
     private void validate(String username, String userpassword){
         if ((username.equals("Yosman")) && (userpassword.equals("1234"))) {

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "247697370478",
+    "firebase_url": "https://famfit-databse.firebaseio.com",
+    "project_id": "famfit-databse",
+    "storage_bucket": "famfit-databse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247697370478:android:c4427ecb402b5df3",
+        "android_client_info": {
+          "package_name": "yosman.dhar.stonybrook.edu.famfityosmanv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247697370478-sp92fl2npsgm1elptn29a4tcho4pjb4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoiv2s1sw6FwIEGuddxgamMIVXl6vX-xk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -19,7 +19,6 @@
         android:layout_marginTop="8dp"
         android:fontFamily="serif-monospace"
         android:text="Inbox"
-        android:letterSpacing="15dp"
         android:textColor="#757575"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
